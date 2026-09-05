@@ -1,0 +1,5 @@
+print("banco de Dados")
+Nome =input("Digite Seu nome:")
+Idade =int(input("Digite Sua idade:"))
+Altura =float(input("Digite Sua Altura:"))
+print(f"Olá,{Nome},Você Tem ,{Idade},Anos,Você Tem,{Altura},M de Altura")

@@ -1,0 +1,5 @@
+print("Bem vindo ao Calculador de Idade!")
+AnoN =int(input("Digite o Ano em que você nasceu:"))
+AnoA =int(input("Digite o Ano Atual:"))
+Idade =(AnoA - AnoN)
+print(f"que legal! parece que você Tem:{Idade} Anos!") 
