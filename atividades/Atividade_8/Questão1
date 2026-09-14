@@ -1,0 +1,24 @@
+print("Cálculo de Média")
+
+def aluno(nome, nota1, nota2, nota3, nota4):
+    media = (nota1 + nota2 + nota3 + nota4) / 4
+
+    print(f"Aluno: {nome}")
+    print(f"1º Bimestre: {nota1}")
+    print(f"2º Bimestre: {nota2}")
+    print(f"3º Bimestre: {nota3}")
+    print(f"4º Bimestre: {nota4}")
+    print(f"Média final: {media:1f})")
+
+    if media >= 7:
+        print("Situação: Aprovado")
+    else:
+        print("Situação: Reprovado")
+
+nome = input("Digite o nome do aluno:")
+nota1 = float(input("Digite a nota do 1º bimestre: "))
+nota2 = float(input("Digite a nota do 2º bimestre: "))
+nota3 = float(input("Digite a nota do 3º bimestre: "))
+nota4 = float(input("Digite a nota do 4º bimestre: "))
+
+aluno(nome, nota1, nota2, nota3, nota4)
